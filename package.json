@@ -1,9 +1,8 @@
 {
   "name": "sistema-gestion-proyectos",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
-    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT --cors",
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT --cors"
   },
   "dependencies": {
     "json-server": "^0.17.4"
